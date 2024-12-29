@@ -17,35 +17,38 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
+  include:
+    - transmission
+    - Cog
+    - UnitConverter
+  sort_by: stars
+  limit: 0
   exclude:
-    forks: true
-    projects:
-    # - repo-name
-
-# social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # linkedin: your_username
-  # medium: @your_username
-  # stackoverflow: your_user_id
-  # twitter: your_username
-  # youtube: your_username
+    forks: false
+    projects: []
 
 topics:
+  - name: Gradle
+    web_url: https://github.com/topics/gradle
+    image_url: https://raw.githubusercontent.com/github/explore/59009b1589a883459c0ae19044e3e7e3ec0c4e0a/topics/gradle/gradle.png
+
+  - name: Kotlin
+    web_url: https://github.com/topics/kotlin
+    image_url: https://raw.githubusercontent.com/github/explore/4479d2a2c854198cb00160f8593519c14dc3b905/topics/kotlin/kotlin.png
+
   - name: C++
     web_url: https://github.com/topics/cpp
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/cpp/cpp.png
+    image_url: https://raw.githubusercontent.com/github/explore/180320cffc25f4ed1bbdfd33d4db3a66eeeeb358/topics/cpp/cpp.png
 
   - name: Python
     web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
 
   - name: Android
     web_url: https://github.com/topics/android
-    image_url: https://raw.githubusercontent.com/github/explore/a3520d60fbf9b0bdd0b7d563a1a3ed596acd8489/topics/android/android.png
+    image_url: https://raw.githubusercontent.com/github/explore/8baf984947f4d9c32006bd03fa4c51ff91aadf8d/topics/android/android.png
+
+  - name: Chromium
+    web_url: https://github.com/topics/chromium
+    image_url: https://raw.githubusercontent.com/github/explore/2a2c984d5ec9cd3edd54fa36e13d7f6fd6d4cf72/topics/chromium/chromium.png
+
